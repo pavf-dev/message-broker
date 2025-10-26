@@ -1,0 +1,6 @@
+@MessageBrokerClient.Host_HostAddress = http://localhost:5210
+
+GET {{MessageBrokerClient.Host_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
