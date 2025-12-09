@@ -7,7 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\MessageBrokerClient.ServiceBus\MessageBrokerClient.ServiceBus.csproj" />
+      <ProjectReference Include="..\MessageBroker.RabbitMq\MessageBroker.RabbitMq.csproj" />
+      <ProjectReference Include="..\MessageBroker\MessageBroker.csproj" />
     </ItemGroup>
 
 </Project>
